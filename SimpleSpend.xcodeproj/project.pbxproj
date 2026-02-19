@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1516B3E52F46CCF900B15CC0 /* aboutProject.md in Resources */ = {isa = PBXBuildFile; fileRef = 1516B3E42F46CCF300B15CC0 /* aboutProject.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1516B3E42F46CCF300B15CC0 /* aboutProject.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = aboutProject.md; sourceTree = "<group>"; };
 		153558022F4609CD00BCDC21 /* SimpleSpend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSpend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -47,6 +52,7 @@
 			children = (
 				153558042F4609CD00BCDC21 /* SimpleSpend */,
 				153558032F4609CD00BCDC21 /* Products */,
+				1516B3E42F46CCF300B15CC0 /* aboutProject.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1516B3E52F46CCF900B15CC0 /* aboutProject.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
